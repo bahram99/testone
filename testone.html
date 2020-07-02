@@ -1,0 +1,66 @@
+
+<html>
+    <head>
+    <title>test one</title>
+    <link rel="stylesheet" href="./testone.css">
+ 
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta charset="utf-8">
+    </head>
+
+    <body>
+        <div id="items" class="container" style="border-radius: 3px;">
+            <div class="item item-1" id="aa">
+                <label> name : </label>
+                <input type="text" id="a">
+            </div>
+            <div class="item item-2" id="bb">
+                <label> name : </label>
+                <input  type="text" id="b">
+            </div>
+            <div class="item item-3" id="cc">
+                <label> name : </label>
+                <input  type="text" id="c">
+            </div>
+            <div class="item item-4" id="dd">
+                <label> name : </label>
+                <input type="text" id="d">
+            </div>
+            <div class="item item-5" id="ee">
+                <label> name : </label>
+                <input  type="text" id="e">
+            </div>
+            <div class="item item-6" id="ff">
+                <label> name : </label>
+                <input  type="text" id="f">
+            </div>
+            <div class="item item-7" id="gg">
+                <label> name finall: </label>
+                <input  type="text" id="g">
+            </div>
+        </div>
+        <button onclick="bar()">test</button>
+        <script>
+            function bar(){
+                if(document.getElementById('a').value.length == 0){
+                    document.getElementById('aa').classList.add("none");
+                }  if(document.getElementById('b').value.length == 0){
+                    document.getElementById('bb').classList.add("none");
+                }  if(document.getElementById('c').value.length == 0){
+                    document.getElementById('cc').classList.add("none");
+                }  if(document.getElementById('d').value.length == 0){
+                    document.getElementById('dd').classList.add("none");
+                }  if(document.getElementById('e').value.length == 0){
+                    document.getElementById('ee').classList.add("none");
+                }  if(document.getElementById('f').value.length == 0){
+                    document.getElementById('ff').classList.add("none");
+                }  if(document.getElementById('g').value.length == 0){
+                    document.getElementById('gg').classList.add("none");
+                }
+
+            }
+        </script>
+    </body>
+</html>            
