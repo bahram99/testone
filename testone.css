@@ -17,10 +17,7 @@
 }
 #tt{
   border-radius: 1rem;
-  width: 90%;
   margin-bottom: 3rem;
-}
-.container{
 }
 
 .boody {
@@ -37,7 +34,6 @@
   justify-content: center;
   text-align: center;
   background: gray;
-  
   padding: 15px;
   margin: 3px;
 }
@@ -90,5 +86,4 @@
 }
 .item-10 {order: 10;}
 .item-11 { order: 11;}
-/*# sourceMappingURL=course.css.map */
-  
+
