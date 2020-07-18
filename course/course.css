@@ -1,0 +1,44 @@
+.tty{
+    margin: 2rem 3rem;
+    background-color: rgb(230, 225, 219);
+    border: 1px solid;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.head a{
+    color: black;
+}
+.head a:hover{
+    color: gray;
+}
+.head-p{
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+.icon{
+    display: flex;
+    margin-right: 2rem;
+}
+#num{
+    margin-right: 1rem;
+}
+.cardstyle a{
+    color: black;
+}
+.card-header{
+    display: flex;
+}
+.cardstyle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collapse{
+    padding: 0 2rem
+}
+.link{
+    text-decoration: none;
+}

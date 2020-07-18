@@ -1,0 +1,96 @@
+
+<html dir="rtl" >
+    <head>
+    <title>course</title>
+    <link rel="stylesheet" href="C:\Users\Bahram\Desktop\testone\course\course.css">
+    <link rel="stylesheet" href="C:\Users\Bahram\Desktop\testone\bootstrap.min.css">          
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta charset="utf-8">
+    </head>
+
+   <body>
+     <div class="tty">
+        <div class="head">
+          <a class="head-p" href="#" style="text-decoration: none;">توضیحات</a>
+          <a href="#" style="text-decoration: none;">جلسات دوره</a>
+        </div>
+        <hr>
+        <p style="text-align: justify;">
+          React native یک فریم ورک جاوا اسکریپت برای ساختن برنامه های موبایلِ native است. این فریم ورک از فریم ورکِ React استفاده می کنه و APIها و کامپوننت های تعبیه شده ی داخلیِ زیادی داره. در گذشته شما با Javascript تنها میتوانستید بخش Frontend وبسایت های خودتان رو بوجود بیاورید
+        </p>
+        <hr>
+        <div class="icon">
+          <i id="img" onclick="color()" class="fa-heart fa" style="height: 1.5rem; width: 2rem;"></i>
+          <p id="num">0</p>
+        </div>  
+     </div>
+     <div class="container body" >
+        <div id="accordion" >
+          <div class="card">
+            <div class="card-header">
+                <a href="#one" class="card-link" data-toggle="collapse">بخش اول | اشنایی</a>
+            </div>
+            <div id="one" class="collapse show" data-parent="#accordion">
+                <div class="cardstyle" style="padding-top: 1rem;">
+                  <a href="#" class="link" style="text-decoration: none;">پایتون چیست؟</a>
+                  <span class="btn btn-primary" style="color: white;">12:15 دقیقه</span>
+                </div><hr>
+                <div class="cardstyle" style="padding: 0;">
+                  <a href="#" style=" text-decoration: none; ">کامپوننت چیست؟</a>
+                  <span class="btn btn-primary" style="color: white;">12:15 دقیقه</span>
+                </div><hr>
+                <div class="cardstyle" style="padding-bottom: 1rem;">
+                  <a href="#" style=" text-decoration: none; ">تست چیست؟</a>
+                  <span class="btn btn-primary" style="color: white;">12:15 دقیقه</span>
+                </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+                <a href="#two" class="card-link" data-toggle="collapse">بخش دوم | اموزش نصب</a>
+            </div>
+            <div id="two" class="collapse" data-parent="#accordion">
+                <div class="cardstyle">
+                  <p>dfsdfsfds</p>
+                </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+                <a href="#th" class="card-link" data-toggle="collapse">بخش سوم | مقدمه</a>
+            </div>
+            <div id="th" class="collapse " data-parent="#accordion">
+                <div class="cardstyle">
+                  <p>test</p>
+                </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+                <a href="#four" class="card-link" data-toggle="collapse">بخش چهارم | ازمون</a>
+            </div>
+            <div id="four" class="collapse " data-parent="#accordion">
+                <div class="cardstyle">
+                  <p>dfsdfsfds</p>
+                </div>
+            </div>
+          </div>
+        </div>
+     </div>
+
+     <script>
+       var i = 0;
+       function color(){
+          document.getElementById('img').style.color='red';
+           i++;
+          document.getElementById('num').innerHTML = i;
+       }
+     </script>
+   </body>
+</html>            
